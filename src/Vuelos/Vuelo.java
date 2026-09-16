@@ -8,7 +8,6 @@ public class Vuelo {
     String hora;
     String duracion;
 
-    // arreglo de 20 puestos, uno para cada vuelo
     Puesto[] puestos = new Puesto[20];
 
     public Vuelo(String codigo, String ciudad, String pais, String hora, String duracion) {
